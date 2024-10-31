@@ -12,13 +12,26 @@
 <body class="overflow-x-hidden">
     <div class=" h-[100vh] w-[100%] bg-black "id="nav">
         <div class="flex justify-between" id="nav-2">
-         <h3 class="text-white sm:text-[20px] text-[16px] my-[30px] sm:mx-[40px] mx-[25spx] py-[10px]">Ahnaf</h3>
-            <div class="flex pr-[30px] my-[42px]   sm:gap-[25px] gap-[15px]  sm:text-[17px] text-[12px]" id="nav-3">
+         <h3 class=" text-white sm:text-[20px] text-[16px] my-[30px] sm:mx-[40px] mx-[25px] py-[10px]">Ahnaf </h3>
+            <div class="flex pr-[30px] my-[42px]   sm:gap-[25px] gap-[15px]  sm:text-[17px] text-[12px] "id="nav-3">
                 <a href="" class=" font-sans text-white ">Skills</a>
                 <a href="" class="text-white  ">Course</a>
                  <a href="" class="text-white ">Service</a>
                 <a href="" class="text-white ">Blog</a>
-          </div>        
+                <div class="relative">
+                    <button id="menuButton" class="text-white focus:outline-none">
+                        <svg class="w-8 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3 4H21V6H3V4ZM3 11H15V13H3V11ZM3 18H21V20H3V18Z"></path>
+                        </svg>
+                    </button>
+                    <div id="menuOptions" class="absolute right-4 z-0 hidden w-48 mt-2 bg-gray-700 rounded-md shadow-lg">
+                        <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Courses</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Skills</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Prices</a>
+                    </div>
+                </div>
+          </div>  
+              
         </div>
         <div class="relative  h-[70vh]" id="nav-4">
             <h3 class=" absolute top-1/2 left-1/2 transform -translate-x-1/2 whitespace-nowrap text-white sm:text-[60px] text-[30px] whitespace-nowrap

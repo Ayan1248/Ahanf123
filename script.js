@@ -33,3 +33,12 @@ gsap.to("#pg-2 h3",{
         pin:true
     }
 })
+const menuButton = document.getElementById('menuButton');
+const menuOptions = document.getElementById('menuOptions');
+
+menuButton.addEventListener('click', () => {
+    menuOptions.classList.toggle('hidden');
+});
+
+
+
