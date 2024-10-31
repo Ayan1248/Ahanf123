@@ -13,7 +13,7 @@ x.from("#nav-2",{
     delay:0.1
     
 })
-x.from("h4",{
+x.from("#nav-3 a",{
     y:-60,
     opacity:0,
     duration:1,
@@ -26,7 +26,7 @@ gsap.to("#pg-2 h3",{
     scrollTrigger:{
         trigger:"#pg-2",
         scroller:"body",
-        markers:true,
+        markers:false,
         start:"top 0%",
         end:"top -100%",
         scrub:2,
