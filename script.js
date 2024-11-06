@@ -32,13 +32,14 @@ gsap.to("#pg-2 h3",{
         scrub:2,
         pin:true
     }
-})
-const menuButton = document.getElementById('menuButton');
-const menuOptions = document.getElementById('menuOptions');
-
-menuButton.addEventListener('click', () => {
-    menuOptions.classList.toggle('hidden');
 });
-
-
-
+var menuButton = document.querySelector("#menuButton");
+        var menu = document.querySelector("#menu");
+        var close =document.querySelector("#closebutton");
+      
+menu.addEventListener("click",()=>{
+    menuButton.classList.toggle("hidden");
+});
+close.addEventListener("click",()=>{
+    menuButton.classList.toggle("hidden");
+});
